@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+
+}
+
+/* -----------Barra de Navegação -------------*/
+.navbar{
+    background: #22c0c0;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.logo{
+    padding: 10px;
+    color: #4e4e4e;
+    font-size: 1.5em;
+    
+}
+
+.menu{
+    padding: 10px;
+
+}
+
+.branco{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar a:link, .navbar a:visited{
+    color: aliceblue;
+    padding: 8px 12px;
+}
+.navbar a:hover {
+    background: aliceblue;
+    color: #22c0c0;
+}
+/*---------------------------------------------------------*/
+
+/*---------------------Section-----------------------------*/
+section{
+    width: 920px;
+    margin: 15px auto;
+}
+
+.section{
+    overflow: hidden;
+}
+
+.conteudo{
+    width: 640px;
+    background: aliceblue;
+    float: left;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.titulos{
+    color: #22c0c0;
+}
+
+.data-post{
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    font-style: italic;
+    display: block;
+}
+
+.description{
+    margin-top: 7px;
+}
+
+.conteudo a:link, .conteudo a:visited{
+    color: #22c0c0;
+}
+
+.conteudo a:hover{
+    text-decoration: underline;
+}
+/*-------------------------------------------------------*/
+
+/*-----------------menu lateral-------------------------*/
+.menu-lateral{
+    width: 220px;
+    background: aliceblue;
+    float: right;
+    padding: 8px;
+}
+
+.menu-lateral h3{
+    font-size: 1.1em;
+    background: #c9c9c9;
+    color: #4e4e4e;
+    margin-bottom: 5px;
+
+}
+.menu-lateral p{
+    font-size: 0.9em;
+    
+}
+
+.menu-lateral a:link, .menu-lateral a:visited{
+    color: #22c0c0;
+    font-size: 0.9em;
+}
+
+.menu-lateral a:hover{
+    text-decoration: underline;
+    font-size: 0.9em;
+
+}
+
+.espacamento-lateral{
+    margin-top: 5px;
+}
+
+/*-------------------------------------------------------*/
+
+footer{
+    width: 920px;
+    clear: both;
+    padding: 15px;
+    background: #ccc;
+    margin: 15px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+#ads{
+    text-align: center;
+    
+}
